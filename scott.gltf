@@ -1,0 +1,215 @@
+{
+  accessors [
+    {
+      bufferView 2,
+      componentType 5126,
+      count 33310,
+      max [
+        0.11377499997615814,
+        0.10636399686336517,
+        0.22638499736785889
+      ],
+      min [
+        -0.11506500095129013,
+        -0.12012600153684616,
+        -0.17767299711704254
+      ],
+      type VEC3
+    },
+    {
+      bufferView 2,
+      byteOffset 399720,
+      componentType 5126,
+      count 33310,
+      max [
+        0.99999451637268066,
+        0.99999713897705078,
+        0.99998414516448975
+      ],
+      min [
+        -0.99999344348907471,
+        -0.99999117851257324,
+        -0.99999940395355225
+      ],
+      type VEC3
+    },
+    {
+      bufferView 1,
+      componentType 5126,
+      count 33310,
+      max [
+        0.86157798767089844,
+        0.99999099969863892
+      ],
+      min [
+        0.00012399999832268804,
+        0.00010800000018207356
+      ],
+      type VEC2
+    },
+    {
+      bufferView 0,
+      componentType 5125,
+      count 192984,
+      max [
+        33309
+      ],
+      min [
+        0
+      ],
+      type SCALAR
+    }
+  ],
+  asset {
+    extras {
+      author Minneapolis Institute of Art (httpssketchfab.comartsmia),
+      license CC0-1.0 (httpcreativecommons.orgpublicdomainzero1.0),
+      source httpssketchfab.com3d-modelsstone-avalokiteshvara-head12th-c-ce-f3b47feea3134b9db10aed7a63185ecc,
+      title Stone Avalokiteshvara head,12th C CE
+    },
+    generator Sketchfab-7.80.0,
+    version 2.0
+  },
+  bufferViews [
+    {
+      buffer 0,
+      byteLength 771936,
+      byteOffset 0,
+      name floatBufferViews,
+      target 34963
+    },
+    {
+      buffer 0,
+      byteLength 266480,
+      byteOffset 771936,
+      byteStride 8,
+      name floatBufferViews,
+      target 34962
+    },
+    {
+      buffer 0,
+      byteLength 799440,
+      byteOffset 1038416,
+      byteStride 12,
+      name floatBufferViews,
+      target 34962
+    }
+  ],
+  buffers [
+    {
+      byteLength 1837856,
+      uri scene.bin
+    }
+  ],
+  extensionsRequired [
+    KHR_materials_pbrSpecularGlossiness
+  ],
+  extensionsUsed [
+    KHR_materials_pbrSpecularGlossiness
+  ],
+  images [
+    {
+      uri textures191028_mia337_017523_64Kmesh_average_OBJ_diffuse.jpeg
+    }
+  ],
+  materials [
+    {
+      doubleSided true,
+      emissiveFactor [
+        0,
+        0,
+        0
+      ],
+      extensions {
+        KHR_materials_pbrSpecularGlossiness {
+          diffuseFactor [
+            1,
+            1,
+            1,
+            1
+          ],
+          diffuseTexture {
+            index 0,
+            texCoord 0
+          },
+          glossinessFactor 0,
+          specularFactor [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      name 191028_mia337_017523_64Kmesh_average_OBJ
+    }
+  ],
+  meshes [
+    {
+      primitives [
+        {
+          attributes {
+            NORMAL 1,
+            POSITION 0,
+            TEXCOORD_0 2
+          },
+          indices 3,
+          material 0,
+          mode 4
+        }
+      ]
+    }
+  ],
+  nodes [
+    {
+      children [
+        1
+      ],
+      name RootNode (gltf orientation matrix),
+      rotation [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      children [
+        2
+      ],
+      name RootNode (model correction matrix)
+    },
+    {
+      children [
+        3
+      ],
+      name 191028_mia337_017523_64Kmesh_avaerga_origin.obj.cleaner.materialmerger.gles
+    },
+    {
+      mesh 0,
+      name 
+    }
+  ],
+  samplers [
+    {
+      magFilter 9729,
+      minFilter 9987,
+      wrapS 10497,
+      wrapT 10497
+    }
+  ],
+  scene 0,
+  scenes [
+    {
+      name OSG_Scene,
+      nodes [
+        0
+      ]
+    }
+  ],
+  textures [
+    {
+      sampler 0,
+      source 0
+    }
+  ]
+}
